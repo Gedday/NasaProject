@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 
 namespace WindowsFormsApplication3
 {
@@ -29,8 +30,8 @@ namespace WindowsFormsApplication3
                     connect.Open();
                 }
                 catch (MySqlException e)
-                {
-                    throw;
+                {            
+                    throw e;
                 }
             }
 
@@ -38,9 +39,9 @@ namespace WindowsFormsApplication3
             {
                 db_connection();
                 MySqlCommand cmd = new MySqlCommand();
-                cmd.CommandText = "Select * from members where username=@user and password=@pass";
-                cmd.Parameters.AddWithValue("@user", user);
-                cmd.Parameters.AddWithValue("@pass", pass);
+                cmd.CommandText = "Select * from members where username=@username and password=@password";
+                cmd.Parameters.AddWithValue("@username", user);
+                cmd.Parameters.AddWithValue("@password", pass);
                 cmd.Connection = connect;
                 MySqlDataReader login = cmd.ExecuteReader();
                 if (login.Read())
@@ -55,21 +56,49 @@ namespace WindowsFormsApplication3
                 }
             }
 
-            private void button1_Click(object sender, EventArgs e)
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuThinButton22_Click(object sender, EventArgs e)
+        {
+            if (slide2.Left == 609)
             {
-                string user = username.Text;
-                string pass = password.Text;
-                if (user == "" || pass == "")
-                {
-                    MessageBox.Show("Tom fält, var snäll och fyll i båda.");
-                    return;
-                }
-                bool r = validate_login(user, pass);
-                if (r)
-                    MessageBox.Show("Välkommen");
-                else
-                    MessageBox.Show("Fel användarinformation");
+                slide1.Visible = false;
+                slide1.Left = 609;
+
+                slide2.Visible = false;
+                slide2.Left = 23;
+                slide2.Visible = true;
+                slide2.Refresh();
             }
+
+        }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            if (slide1.Left == 609)
+            {
+                slide2.Visible = false;
+                slide2.Left = 609;
+
+                slide1.Visible = false;
+                slide1.Left = 23;
+                slide1.Visible = true;
+                slide1.Refresh();
+
+            }
+
         }
     }
+}
