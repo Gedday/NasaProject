@@ -72,27 +72,26 @@ namespace WindowsFormsApplication3
 
         /// Gör klassen dragbar^ Ändra inte den koden.
 
-        private void bunifuFlatButton1_Click(object sender, EventArgs e)
-        {
-        }
 
-        private void Form1_Load(object sender, EventArgs e)
+
+        private void MainWindow(object sender, EventArgs e)
         {
 
         }
 
-        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
+        private void BigLabel2(object sender, EventArgs e)
         {
 
         }
 
-        private void SignInButton1_Click(object sender, EventArgs e)
+
+        private void LoginButton1(object sender, EventArgs e)
         {
             if (slide2.Left == 609)
             {
                 slide1.Visible = false;
                 slide1.Left = 609;
-
+              
                 slide2.Visible = false;
                 slide2.Left = 23;
                 slide2.Visible = true;
@@ -101,7 +100,7 @@ namespace WindowsFormsApplication3
 
         }
 
-        private void RegisterButton1_Click(object sender, EventArgs e)
+        private void RegisterButton1(object sender, EventArgs e)
         {
             if (slide1.Left == 609)
             {
@@ -117,36 +116,40 @@ namespace WindowsFormsApplication3
 
         }
 
-        private void SignInButton2_Click(object sender, EventArgs e)
+        private void LogInButton2(object sender, EventArgs e)
         {
 
         }
 
-        private void RegisterButton2_Click(object sender, EventArgs e)
+        private void RegisterButton2(object sender, EventArgs e)
         {
 
         }
 
-        private void bunifuMetroTextbox1_OnValueChanged(object sender, EventArgs e)
+        private void Textbox1(object sender, EventArgs e)
         {
 
         }
 
-        private void bunifuMetroTextbox2_OnValueChanged(object sender, EventArgs e)
+        private void Textbox2(object sender, EventArgs e)
+        {
+
+        }
+        private void Textbox3(object sender, EventArgs e)
         {
 
         }
 
-        private void bunifuCustomLabel7_Click(object sender, EventArgs e)
+        private void BigLabel1(object sender, EventArgs e)
         {
 
         }
 
-        private void bunifuCustomLabel5_Click(object sender, EventArgs e)
+        private void SmallLabel4(object sender, EventArgs e)
         {
     }
 
-        private void bunifuFlatButton4_Click(object sender, EventArgs e)
+        private void LogInButton(object sender, EventArgs e)
         {
             if (slide2.Left == 609)
             {
@@ -160,7 +163,7 @@ namespace WindowsFormsApplication3
             }
         }
 
-        private void bunifuFlatButton3_Click(object sender, EventArgs e)
+        private void RegisterButton(object sender, EventArgs e)
         {
 
             if (slide1.Left == 609)
@@ -177,17 +180,55 @@ namespace WindowsFormsApplication3
 
         }
 
-        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        private void MinimizeWindow(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
         }
 
-        private void bunifuImageButton2_Click(object sender, EventArgs e)
+        private void CloseWindow(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void slide1_Paint(object sender, PaintEventArgs e)
+        private void Slide1(object sender, PaintEventArgs e)
+        {
+
+        }
+        private void Textbox4(object sender, EventArgs e)
+        {
+
+        }
+        private void Textbox5(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BigLabel3(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SmallLabel1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SmallLabel2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SmallLabel3(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SmallLabel5(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Slide2(object sender, PaintEventArgs e)
         {
 
         }
