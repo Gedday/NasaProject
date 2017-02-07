@@ -70,7 +70,7 @@ namespace WindowsFormsApplication3
 
         }
 
-        private void bunifuThinButton22_Click(object sender, EventArgs e)
+        private void SignInButton1_Click(object sender, EventArgs e)
         {
             if (slide2.Left == 609)
             {
@@ -85,7 +85,7 @@ namespace WindowsFormsApplication3
 
         }
 
-        private void RegisterButton_2_Click(object sender, EventArgs e)
+        private void RegisterButton1_Click(object sender, EventArgs e)
         {
             if (slide1.Left == 609)
             {
@@ -98,6 +98,16 @@ namespace WindowsFormsApplication3
                 slide1.Refresh();
 
             }
+
+        }
+
+        private void SignInButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RegisterButton2_Click(object sender, EventArgs e)
+        {
 
         }
     }
