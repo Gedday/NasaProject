@@ -110,5 +110,25 @@ namespace WindowsFormsApplication3
         {
 
         }
+
+        private void bunifuMetroTextbox1_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuMetroTextbox2_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
