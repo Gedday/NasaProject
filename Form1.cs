@@ -85,7 +85,7 @@ namespace WindowsFormsApplication3
 
         }
 
-        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        private void RegisterButton_2_Click(object sender, EventArgs e)
         {
             if (slide1.Left == 609)
             {
