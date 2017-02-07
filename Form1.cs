@@ -128,7 +128,6 @@ namespace WindowsFormsApplication3
 
         private void bunifuCustomLabel5_Click(object sender, EventArgs e)
         {
-
-        }
+    }
     }
 }
