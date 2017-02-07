@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using MySql.Data.MySqlClient;
+using System.Runtime.InteropServices;
 
 namespace WindowsFormsApplication3
 {
@@ -18,10 +19,10 @@ namespace WindowsFormsApplication3
             private MySqlConnection connect;
             public Form1()
             {
-                InitializeComponent();
+            InitializeComponent();
             }
 
-            private void db_connection()
+        private void db_connection()
             {
                 try
                 {
@@ -55,6 +56,21 @@ namespace WindowsFormsApplication3
                     return false;
                 }
             }
+        protected override void WndProc(ref Message m)
+        {
+            switch (m.Msg)
+            {
+                case 0x84:
+                    base.WndProc(ref m);
+                    if ((int)m.Result == 0x1)
+                        m.Result = (IntPtr)0x2;
+                    return;
+            }
+            base.WndProc(ref m);
+        }
+
+
+        /// Gör klassen dragbar^ Ändra inte den koden.
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
@@ -129,5 +145,54 @@ namespace WindowsFormsApplication3
         private void bunifuCustomLabel5_Click(object sender, EventArgs e)
         {
     }
+
+        private void bunifuFlatButton4_Click(object sender, EventArgs e)
+        {
+            if (slide2.Left == 609)
+            {
+                slide1.Visible = false;
+                slide1.Left = 609;
+
+                slide2.Visible = false;
+                slide2.Left = 23;
+                slide2.Visible = true;
+                slide2.Refresh();
+            }
+        }
+
+        private void bunifuFlatButton3_Click(object sender, EventArgs e)
+        {
+
+            if (slide1.Left == 609)
+            {
+                slide2.Visible = false;
+                slide2.Left = 609;
+
+                slide1.Visible = false;
+                slide1.Left = 23;
+                slide1.Visible = true;
+                slide1.Refresh();
+
+            }
+
+        }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void slide1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
-}
+        }
+
+
+
