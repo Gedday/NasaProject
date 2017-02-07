@@ -84,14 +84,13 @@ namespace WindowsFormsApplication3
 
         }
 
-
         private void LoginButton1(object sender, EventArgs e)
         {
             if (slide2.Left == 609)
             {
                 slide1.Visible = false;
                 slide1.Left = 609;
-              
+
                 slide2.Visible = false;
                 slide2.Left = 23;
                 slide2.Visible = true;
@@ -115,6 +114,7 @@ namespace WindowsFormsApplication3
             }
 
         }
+
 
         private void LogInButton2(object sender, EventArgs e)
         {

@@ -29,9 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+<<<<<<< HEAD
             BunifuAnimatorNS.Animation animation6 = new BunifuAnimatorNS.Animation();
             BunifuAnimatorNS.Animation animation5 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+=======
+            BunifuAnimatorNS.Animation animation15 = new BunifuAnimatorNS.Animation();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            BunifuAnimatorNS.Animation animation16 = new BunifuAnimatorNS.Animation();
+>>>>>>> origin/master
             this.bunifuElipse1 = new ns1.BunifuElipse(this.components);
             this.bunifuFlatButton1 = new ns1.BunifuFlatButton();
             this.slide1 = new System.Windows.Forms.Panel();
@@ -82,7 +88,7 @@
             this.bunifuTransition2.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition1.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
             this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton1.Font = new System.Drawing.Font("Futura LT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton1.Iconimage = null;
             this.bunifuFlatButton1.Iconimage_right = null;
@@ -133,11 +139,17 @@
             this.bunifuCustomLabel8.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel8, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel8, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel8.Font = new System.Drawing.Font("Futura LT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel8.ForeColor = System.Drawing.SystemColors.ButtonFace;
+<<<<<<< HEAD
             this.bunifuCustomLabel8.Location = new System.Drawing.Point(44, 250);
             this.bunifuCustomLabel8.Name = "bunifuCustomLabel8";
             this.bunifuCustomLabel8.Size = new System.Drawing.Size(44, 16);
+=======
+            this.bunifuCustomLabel8.Location = new System.Drawing.Point(32, 161);
+            this.bunifuCustomLabel8.Name = "bunifuCustomLabel8";
+            this.bunifuCustomLabel8.Size = new System.Drawing.Size(53, 22);
+>>>>>>> origin/master
             this.bunifuCustomLabel8.TabIndex = 6;
             this.bunifuCustomLabel8.Text = "Email";
             this.bunifuCustomLabel8.Click += new System.EventHandler(this.SmallLabel2);
@@ -147,11 +159,17 @@
             this.bunifuCustomLabel3.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel3, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel3, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Futura LT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+<<<<<<< HEAD
             this.bunifuCustomLabel3.Location = new System.Drawing.Point(44, 167);
             this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
             this.bunifuCustomLabel3.Size = new System.Drawing.Size(68, 16);
+=======
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(35, 244);
+            this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
+            this.bunifuCustomLabel3.Size = new System.Drawing.Size(85, 22);
+>>>>>>> origin/master
             this.bunifuCustomLabel3.TabIndex = 4;
             this.bunifuCustomLabel3.Text = "Password";
             this.bunifuCustomLabel3.Click += new System.EventHandler(this.SmallLabel3);
@@ -161,11 +179,15 @@
             this.bunifuCustomLabel2.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel2, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel2, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Futura LT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(44, 83);
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(32, 83);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
+<<<<<<< HEAD
             this.bunifuCustomLabel2.Size = new System.Drawing.Size(72, 16);
+=======
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(88, 22);
+>>>>>>> origin/master
             this.bunifuCustomLabel2.TabIndex = 3;
             this.bunifuCustomLabel2.Text = "Username";
             this.bunifuCustomLabel2.Click += new System.EventHandler(this.SmallLabel1);
@@ -179,7 +201,7 @@
             this.bunifuMetroTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTransition1.SetDecoration(this.bunifuMetroTextbox3, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.bunifuMetroTextbox3, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuMetroTextbox3.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox3.Font = new System.Drawing.Font("Futura LT", 10F);
             this.bunifuMetroTextbox3.ForeColor = System.Drawing.Color.White;
             this.bunifuMetroTextbox3.isPassword = false;
             this.bunifuMetroTextbox3.Location = new System.Drawing.Point(36, 270);
@@ -190,6 +212,7 @@
             this.bunifuMetroTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.bunifuMetroTextbox3.OnValueChanged += new System.EventHandler(this.Textbox3);
             // 
+<<<<<<< HEAD
             // PassBox1
             // 
             this.PassBox1.BorderColorFocused = System.Drawing.Color.Silver;
@@ -209,6 +232,27 @@
             this.PassBox1.TabIndex = 2;
             this.PassBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.PassBox1.OnValueChanged += new System.EventHandler(this.Textbox2);
+=======
+            // bunifuMetroTextbox2
+            // 
+            this.bunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox2.BorderThickness = 3;
+            this.bunifuMetroTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuTransition1.SetDecoration(this.bunifuMetroTextbox2, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.bunifuMetroTextbox2, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Futura LT", 10F);
+            this.bunifuMetroTextbox2.ForeColor = System.Drawing.Color.White;
+            this.bunifuMetroTextbox2.isPassword = false;
+            this.bunifuMetroTextbox2.Location = new System.Drawing.Point(36, 187);
+            this.bunifuMetroTextbox2.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMetroTextbox2.Name = "bunifuMetroTextbox2";
+            this.bunifuMetroTextbox2.Size = new System.Drawing.Size(387, 44);
+            this.bunifuMetroTextbox2.TabIndex = 2;
+            this.bunifuMetroTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuMetroTextbox2.OnValueChanged += new System.EventHandler(this.Textbox2);
+>>>>>>> origin/master
             // 
             // bunifuMetroTextbox1
             // 
@@ -219,7 +263,7 @@
             this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTransition1.SetDecoration(this.bunifuMetroTextbox1, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.bunifuMetroTextbox1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Futura LT", 10F);
             this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.White;
             this.bunifuMetroTextbox1.isPassword = false;
             this.bunifuMetroTextbox1.Location = new System.Drawing.Point(36, 103);
@@ -235,15 +279,20 @@
             this.bunifuCustomLabel1.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel1, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Futura LT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel1.Location = new System.Drawing.Point(176, 27);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+<<<<<<< HEAD
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(104, 28);
+=======
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(119, 38);
+>>>>>>> origin/master
             this.bunifuCustomLabel1.TabIndex = 0;
             this.bunifuCustomLabel1.Text = "Register";
             this.bunifuCustomLabel1.Click += new System.EventHandler(this.BigLabel2);
             // 
+<<<<<<< HEAD
             // UserLoginPass
             // 
             this.UserLoginPass.BorderColorFocused = System.Drawing.Color.Silver;
@@ -263,6 +312,27 @@
             this.UserLoginPass.TabIndex = 5;
             this.UserLoginPass.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.UserLoginPass.OnValueChanged += new System.EventHandler(this.Textbox5);
+=======
+            // bunifuMetroTextbox5
+            // 
+            this.bunifuMetroTextbox5.BorderColorFocused = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox5.BorderColorIdle = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox5.BorderColorMouseHover = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox5.BorderThickness = 3;
+            this.bunifuMetroTextbox5.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuTransition1.SetDecoration(this.bunifuMetroTextbox5, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.bunifuMetroTextbox5, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuMetroTextbox5.Font = new System.Drawing.Font("Futura LT", 10F);
+            this.bunifuMetroTextbox5.ForeColor = System.Drawing.Color.White;
+            this.bunifuMetroTextbox5.isPassword = false;
+            this.bunifuMetroTextbox5.Location = new System.Drawing.Point(48, 244);
+            this.bunifuMetroTextbox5.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMetroTextbox5.Name = "bunifuMetroTextbox5";
+            this.bunifuMetroTextbox5.Size = new System.Drawing.Size(387, 44);
+            this.bunifuMetroTextbox5.TabIndex = 5;
+            this.bunifuMetroTextbox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuMetroTextbox5.OnValueChanged += new System.EventHandler(this.Textbox5);
+>>>>>>> origin/master
             // 
             // slide2
             // 
@@ -289,11 +359,15 @@
             this.bunifuCustomLabel4.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel4, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel4, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Futura LT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel4.Location = new System.Drawing.Point(44, 221);
             this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
+<<<<<<< HEAD
             this.bunifuCustomLabel4.Size = new System.Drawing.Size(68, 16);
+=======
+            this.bunifuCustomLabel4.Size = new System.Drawing.Size(85, 22);
+>>>>>>> origin/master
             this.bunifuCustomLabel4.TabIndex = 4;
             this.bunifuCustomLabel4.Text = "Password";
             this.bunifuCustomLabel4.Click += new System.EventHandler(this.SmallLabel5);
@@ -303,11 +377,15 @@
             this.bunifuCustomLabel5.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel5, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel5, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel5.Font = new System.Drawing.Font("Futura LT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel5.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel5.Location = new System.Drawing.Point(44, 83);
             this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
+<<<<<<< HEAD
             this.bunifuCustomLabel5.Size = new System.Drawing.Size(114, 16);
+=======
+            this.bunifuCustomLabel5.Size = new System.Drawing.Size(143, 22);
+>>>>>>> origin/master
             this.bunifuCustomLabel5.TabIndex = 3;
             this.bunifuCustomLabel5.Text = "Username/Email";
             this.bunifuCustomLabel5.Click += new System.EventHandler(this.SmallLabel4);
@@ -323,7 +401,7 @@
             this.bunifuTransition2.SetDecoration(this.bunifuFlatButton2, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition1.SetDecoration(this.bunifuFlatButton2, BunifuAnimatorNS.DecorationType.None);
             this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton2.Font = new System.Drawing.Font("Futura LT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton2.Iconimage = null;
             this.bunifuFlatButton2.Iconimage_right = null;
@@ -336,7 +414,7 @@
             this.bunifuFlatButton2.IconVisible = true;
             this.bunifuFlatButton2.IconZoom = 90D;
             this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(107, 346);
+            this.bunifuFlatButton2.Location = new System.Drawing.Point(124, 346);
             this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.bunifuFlatButton2.Name = "bunifuFlatButton2";
             this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
@@ -351,6 +429,7 @@
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton2.Click += new System.EventHandler(this.LogInButton2);
             // 
+<<<<<<< HEAD
             // UserLogin
             // 
             this.UserLogin.BorderColorFocused = System.Drawing.Color.Silver;
@@ -370,17 +449,42 @@
             this.UserLogin.TabIndex = 1;
             this.UserLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.UserLogin.OnValueChanged += new System.EventHandler(this.Textbox4);
+=======
+            // bunifuMetroTextbox4
+            // 
+            this.bunifuMetroTextbox4.BorderColorFocused = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox4.BorderColorIdle = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox4.BorderColorMouseHover = System.Drawing.Color.Silver;
+            this.bunifuMetroTextbox4.BorderThickness = 3;
+            this.bunifuMetroTextbox4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuTransition1.SetDecoration(this.bunifuMetroTextbox4, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.bunifuMetroTextbox4, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuMetroTextbox4.Font = new System.Drawing.Font("Futura LT", 10F);
+            this.bunifuMetroTextbox4.ForeColor = System.Drawing.Color.White;
+            this.bunifuMetroTextbox4.isPassword = false;
+            this.bunifuMetroTextbox4.Location = new System.Drawing.Point(48, 103);
+            this.bunifuMetroTextbox4.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMetroTextbox4.Name = "bunifuMetroTextbox4";
+            this.bunifuMetroTextbox4.Size = new System.Drawing.Size(387, 44);
+            this.bunifuMetroTextbox4.TabIndex = 1;
+            this.bunifuMetroTextbox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuMetroTextbox4.OnValueChanged += new System.EventHandler(this.Textbox4);
+>>>>>>> origin/master
             // 
             // bunifuCustomLabel6
             // 
             this.bunifuCustomLabel6.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel6, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel6, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel6.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel6.Font = new System.Drawing.Font("Futura LT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel6.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel6.Location = new System.Drawing.Point(176, 27);
             this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
+<<<<<<< HEAD
             this.bunifuCustomLabel6.Size = new System.Drawing.Size(82, 28);
+=======
+            this.bunifuCustomLabel6.Size = new System.Drawing.Size(96, 38);
+>>>>>>> origin/master
             this.bunifuCustomLabel6.TabIndex = 0;
             this.bunifuCustomLabel6.Text = "Log In";
             this.bunifuCustomLabel6.Click += new System.EventHandler(this.BigLabel3);
@@ -389,6 +493,7 @@
             // 
             this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
             this.bunifuTransition1.Cursor = null;
+<<<<<<< HEAD
             animation6.AnimateOnlyDifferences = true;
             animation6.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation6.BlindCoeff")));
             animation6.LeafCoeff = 0F;
@@ -405,17 +510,39 @@
             animation6.TimeCoeff = 0F;
             animation6.TransparencyCoeff = 0F;
             this.bunifuTransition1.DefaultAnimation = animation6;
+=======
+            animation15.AnimateOnlyDifferences = true;
+            animation15.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation15.BlindCoeff")));
+            animation15.LeafCoeff = 0F;
+            animation15.MaxTime = 1F;
+            animation15.MinTime = 0F;
+            animation15.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation15.MosaicCoeff")));
+            animation15.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation15.MosaicShift")));
+            animation15.MosaicSize = 0;
+            animation15.Padding = new System.Windows.Forms.Padding(0);
+            animation15.RotateCoeff = 0F;
+            animation15.RotateLimit = 0F;
+            animation15.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation15.ScaleCoeff")));
+            animation15.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation15.SlideCoeff")));
+            animation15.TimeCoeff = 0F;
+            animation15.TransparencyCoeff = 0F;
+            this.bunifuTransition1.DefaultAnimation = animation15;
+>>>>>>> origin/master
             // 
             // bunifuCustomLabel7
             // 
             this.bunifuCustomLabel7.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel7, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.bunifuCustomLabel7, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel7.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel7.Font = new System.Drawing.Font("Futura LT", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel7.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bunifuCustomLabel7.Location = new System.Drawing.Point(93, 8);
             this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
+<<<<<<< HEAD
             this.bunifuCustomLabel7.Size = new System.Drawing.Size(303, 28);
+=======
+            this.bunifuCustomLabel7.Size = new System.Drawing.Size(352, 38);
+>>>>>>> origin/master
             this.bunifuCustomLabel7.TabIndex = 6;
             this.bunifuCustomLabel7.Text = "Nasa Information Service";
             this.bunifuCustomLabel7.Click += new System.EventHandler(this.BigLabel1);
@@ -432,7 +559,7 @@
             this.bunifuTransition2.SetDecoration(this.bunifuFlatButton3, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition1.SetDecoration(this.bunifuFlatButton3, BunifuAnimatorNS.DecorationType.None);
             this.bunifuFlatButton3.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton3.Font = new System.Drawing.Font("Futura LT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton3.Iconimage = null;
             this.bunifuFlatButton3.Iconimage_right = null;
@@ -445,7 +572,11 @@
             this.bunifuFlatButton3.IconVisible = true;
             this.bunifuFlatButton3.IconZoom = 90D;
             this.bunifuFlatButton3.IsTab = false;
+<<<<<<< HEAD
             this.bunifuFlatButton3.Location = new System.Drawing.Point(23, 49);
+=======
+            this.bunifuFlatButton3.Location = new System.Drawing.Point(160, 49);
+>>>>>>> origin/master
             this.bunifuFlatButton3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.bunifuFlatButton3.Name = "bunifuFlatButton3";
             this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
@@ -472,7 +603,7 @@
             this.bunifuTransition2.SetDecoration(this.bunifuFlatButton4, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition1.SetDecoration(this.bunifuFlatButton4, BunifuAnimatorNS.DecorationType.None);
             this.bunifuFlatButton4.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton4.Font = new System.Drawing.Font("Futura LT", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton4.Iconimage = null;
             this.bunifuFlatButton4.Iconimage_right = null;
@@ -536,6 +667,7 @@
             // 
             this.bunifuTransition2.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
             this.bunifuTransition2.Cursor = null;
+<<<<<<< HEAD
             animation5.AnimateOnlyDifferences = true;
             animation5.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.BlindCoeff")));
             animation5.LeafCoeff = 0F;
@@ -597,11 +729,33 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 18);
             this.label2.TabIndex = 9;
+=======
+            animation16.AnimateOnlyDifferences = true;
+            animation16.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation16.BlindCoeff")));
+            animation16.LeafCoeff = 0F;
+            animation16.MaxTime = 1F;
+            animation16.MinTime = 0F;
+            animation16.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation16.MosaicCoeff")));
+            animation16.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation16.MosaicShift")));
+            animation16.MosaicSize = 0;
+            animation16.Padding = new System.Windows.Forms.Padding(0);
+            animation16.RotateCoeff = 0F;
+            animation16.RotateLimit = 0F;
+            animation16.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation16.ScaleCoeff")));
+            animation16.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation16.SlideCoeff")));
+            animation16.TimeCoeff = 0F;
+            animation16.TransparencyCoeff = 0F;
+            this.bunifuTransition2.DefaultAnimation = animation16;
+>>>>>>> origin/master
             // 
             // Form1
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(502, 561);
+=======
+            this.ClientSize = new System.Drawing.Size(512, 561);
+>>>>>>> origin/master
             this.Controls.Add(this.bunifuImageButton2);
             this.Controls.Add(this.bunifuImageButton1);
             this.Controls.Add(this.bunifuFlatButton4);
