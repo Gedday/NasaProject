@@ -19,8 +19,8 @@ namespace WindowsFormsApplication3
             private MySqlConnection connect;
             public Form1()
             {
-            InitializeComponent();
-            }
+            InitializeComponent();            
+        }
 
         private void db_connection()
             {
@@ -31,8 +31,8 @@ namespace WindowsFormsApplication3
                     connect.Open();
                 }
                 catch (MySqlException e)
-                {            
-                    throw e;
+                {
+                throw e;
                 }
             }
 
@@ -52,8 +52,8 @@ namespace WindowsFormsApplication3
                 }
                 else
                 {
-                    connect.Close();
-                    return false;
+                connect.Close();
+                return false;
                 }
             }
         protected override void WndProc(ref Message m)
@@ -118,8 +118,28 @@ namespace WindowsFormsApplication3
 
         private void LogInButton2(object sender, EventArgs e)
         {
+            string user = UserLogin.Text;
+            string pass = UserLoginPass.Text;
 
+            if (user == "" || pass == "")
+            {
+                label2.Text = ("Var snäll och och fyll i båda fösterna.");
+                return;
+            }
+
+        bool r = validate_login(user, pass);
+            if (r)
+            {
+                label2.Text = ("Hej Marcus!");
+                this.Hide();
+                Form2 form2 = new Form2();
+                form2.ShowDialog();
+                this.Show();
+            }
+            else
+                label2.Text = ("Användarnamnet eller lössenordet är inkorrekt!");
         }
+
 
         private void RegisterButton2(object sender, EventArgs e)
         {
