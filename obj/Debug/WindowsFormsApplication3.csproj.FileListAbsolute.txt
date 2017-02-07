@@ -29,3 +29,6 @@ C:\Users\Joel\Documents\GitHub\NasaProject\bin\Debug\System.Web.Razor.xml
 C:\Users\Joel\Documents\GitHub\NasaProject\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\Joel\Documents\GitHub\NasaProject\obj\Debug\WindowsFormsApplication3.exe
 C:\Users\Joel\Documents\GitHub\NasaProject\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\gedda\Desktop\NasaProject\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\gedda\Desktop\NasaProject\obj\Debug\WindowsFormsApplication3.exe
+C:\Users\gedda\Desktop\NasaProject\obj\Debug\WindowsFormsApplication3.pdb
